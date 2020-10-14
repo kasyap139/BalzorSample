@@ -5,6 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Pages\images\**" />
+    <Content Remove="Pages\images\**" />
+    <EmbeddedResource Remove="Pages\images\**" />
+    <None Remove="Pages\images\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\LeicaInstallationServer.App\LeicaInstallationServer.App.csproj" />
   </ItemGroup>
 

@@ -82,6 +82,10 @@ C:\Users\kkz\source\repos\CentralizedInstallationServer\InstallationServerApp\bi
 C:\Users\kkz\source\repos\CentralizedInstallationServer\InstallationServerApp\bin\Debug\netcoreapp3.1\Microsoft.JSInterop.dll
 C:\Users\kkz\source\repos\CentralizedInstallationServer\InstallationServerApp\bin\Debug\netcoreapp3.1\System.Net.Http.Json.dll
 C:\Users\kkz\source\repos\CentralizedInstallationServer\InstallationServerApp\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\kkz\source\repos\CentralizedInstallationServer\InstallationServerApp\bin\Debug\netcoreapp3.1\LeicaInstallation.Shared.dll
+C:\Users\kkz\source\repos\CentralizedInstallationServer\InstallationServerApp\bin\Debug\netcoreapp3.1\LeicaInstallationServer.App.dll
+C:\Users\kkz\source\repos\CentralizedInstallationServer\InstallationServerApp\bin\Debug\netcoreapp3.1\LeicaInstallationServer.App.pdb
+C:\Users\kkz\source\repos\CentralizedInstallationServer\InstallationServerApp\bin\Debug\netcoreapp3.1\LeicaInstallation.Shared.pdb
 C:\Users\kkz\source\repos\CentralizedInstallationServer\InstallationServerApp\obj\Debug\netcoreapp3.1\InstallationServerApp.csprojAssemblyReference.cache
 C:\Users\kkz\source\repos\CentralizedInstallationServer\InstallationServerApp\obj\Debug\netcoreapp3.1\InstallationServerApp.AssemblyInfoInputs.cache
 C:\Users\kkz\source\repos\CentralizedInstallationServer\InstallationServerApp\obj\Debug\netcoreapp3.1\InstallationServerApp.AssemblyInfo.cs
@@ -102,7 +106,3 @@ C:\Users\kkz\source\repos\CentralizedInstallationServer\InstallationServerApp\ob
 C:\Users\kkz\source\repos\CentralizedInstallationServer\InstallationServerApp\obj\Debug\netcoreapp3.1\InstallationServerApp.dll
 C:\Users\kkz\source\repos\CentralizedInstallationServer\InstallationServerApp\obj\Debug\netcoreapp3.1\InstallationServerApp.pdb
 C:\Users\kkz\source\repos\CentralizedInstallationServer\InstallationServerApp\obj\Debug\netcoreapp3.1\InstallationServerApp.genruntimeconfig.cache
-C:\Users\kkz\source\repos\CentralizedInstallationServer\InstallationServerApp\bin\Debug\netcoreapp3.1\LeicaInstallationServer.App.dll
-C:\Users\kkz\source\repos\CentralizedInstallationServer\InstallationServerApp\bin\Debug\netcoreapp3.1\LeicaInstallationServer.App.pdb
-C:\Users\kkz\source\repos\CentralizedInstallationServer\InstallationServerApp\bin\Debug\netcoreapp3.1\LeicaInstallation.Shared.dll
-C:\Users\kkz\source\repos\CentralizedInstallationServer\InstallationServerApp\bin\Debug\netcoreapp3.1\LeicaInstallation.Shared.pdb
