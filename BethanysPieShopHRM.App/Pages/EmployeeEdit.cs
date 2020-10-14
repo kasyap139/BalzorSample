@@ -3,6 +3,7 @@ using BethanysPieShopHRM.Shared;
 using Microsoft.AspNetCore.Components;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -20,15 +21,25 @@ namespace BethanysPieShopHRM.App.Pages
 		public NavigationManager NavigationManager { get; set; }
 
         public Employee Employee { get; set; } = new Employee();
-
 		protected string Message = string.Empty;
 		protected string StatusClass = string.Empty;
 		protected bool Saved;
 
-		protected async override Task OnInitializedAsync()
+		protected override async Task OnInitializedAsync()
         {
-            Employee = await EmployeeDataService.GetEmployeeDetails(int.Parse(EmployeeId));
-        }
+			Saved = false;
+			int.TryParse(EmployeeId, out var employeeId);
+
+			if (employeeId == 0) //new employee is being created
+			{
+				//add some defaults
+				Employee = new Employee { CountryId = 1, JobCategoryId = 1, BirthDate = DateTime.Now, JoinedDate = DateTime.Now };
+			}
+			else
+			{
+				Employee = await EmployeeDataService.GetEmployeeDetails(int.Parse(EmployeeId));
+			}
+		}
 
 		protected async Task HandleValidSubmit()
 		{
@@ -79,6 +90,11 @@ namespace BethanysPieShopHRM.App.Pages
         {
 			NavigationManager.NavigateTo("/employeeoverview");
         }
+
+		protected void OpenNotepad()
+		{
+			Process.Start("notepad.exe");
+		}
 
 	}
 }
