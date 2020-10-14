@@ -16,8 +16,6 @@ C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.
 C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\bin\Debug\netcoreapp3.1\LeicaInstallationServer.App.deps.json
 C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\bin\Debug\netcoreapp3.1\LeicaInstallationServer.App.dll
 C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\bin\Debug\netcoreapp3.1\LeicaInstallationServer.App.pdb
-C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\bin\Debug\netcoreapp3.1\BethanysPieShopHRM.Shared.dll
-C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\bin\Debug\netcoreapp3.1\BethanysPieShopHRM.Shared.pdb
 C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\obj\Debug\netcoreapp3.1\RazorDeclaration\LeicaInstallationServer.App.dll
 C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\obj\Debug\netcoreapp3.1\LeicaInstallationServer.App.TagHelpers.input.cache
 C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\obj\Debug\netcoreapp3.1\LeicaInstallationServer.App.TagHelpers.output.cache
@@ -37,3 +35,5 @@ C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.
 C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\obj\Debug\netcoreapp3.1\staticwebassets\LeicaInstallationServer.App.StaticWebAssets.xml
 C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\obj\Debug\netcoreapp3.1\LeicaInstallationServer.App.dll
 C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\obj\Debug\netcoreapp3.1\LeicaInstallationServer.App.pdb
+C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\bin\Debug\netcoreapp3.1\LeicaInstallation.Shared.dll
+C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\bin\Debug\netcoreapp3.1\LeicaInstallation.Shared.pdb

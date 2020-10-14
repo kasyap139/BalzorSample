@@ -219,14 +219,14 @@
           "lib/netcoreapp3.0/System.Text.Json.dll": {}
         }
       },
-      "BethanysPieShopHRM.Shared/1.0.0": {
+      "LeicaInstallation.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "compile": {
-          "bin/placeholder/BethanysPieShopHRM.Shared.dll": {}
+          "bin/placeholder/LeicaInstallation.Shared.dll": {}
         },
         "runtime": {
-          "bin/placeholder/BethanysPieShopHRM.Shared.dll": {}
+          "bin/placeholder/LeicaInstallation.Shared.dll": {}
         }
       }
     },
@@ -553,14 +553,14 @@
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
         }
       },
-      "BethanysPieShopHRM.Shared/1.0.0": {
+      "LeicaInstallation.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "compile": {
-          "bin/placeholder/BethanysPieShopHRM.Shared.dll": {}
+          "bin/placeholder/LeicaInstallation.Shared.dll": {}
         },
         "runtime": {
-          "bin/placeholder/BethanysPieShopHRM.Shared.dll": {}
+          "bin/placeholder/LeicaInstallation.Shared.dll": {}
         }
       }
     }
@@ -1212,22 +1212,22 @@
         "version.txt"
       ]
     },
-    "BethanysPieShopHRM.Shared/1.0.0": {
+    "LeicaInstallation.Shared/1.0.0": {
       "type": "project",
-      "path": "../BethanysPieShopHRM.Shared/BethanysPieShopHRM.Shared.csproj",
-      "msbuildProject": "../BethanysPieShopHRM.Shared/BethanysPieShopHRM.Shared.csproj"
+      "path": "../LeicaInstallation.Shared/LeicaInstallation.Shared.csproj",
+      "msbuildProject": "../LeicaInstallation.Shared/LeicaInstallation.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "BethanysPieShopHRM.Shared >= 1.0.0",
+      "LeicaInstallation.Shared >= 1.0.0",
       "Microsoft.AspNetCore.Components >= 3.1.9",
       "Microsoft.AspNetCore.Components.Web >= 3.1.9",
       "Microsoft.Extensions.Http >= 3.1.9",
       "System.Net.Http.Json >= 3.2.0"
     ],
     ".NETStandard,Version=v2.1": [
-      "BethanysPieShopHRM.Shared >= 1.0.0",
+      "LeicaInstallation.Shared >= 1.0.0",
       "Microsoft.AspNetCore.Components >= 3.1.9",
       "Microsoft.AspNetCore.Components.Web >= 3.1.9",
       "Microsoft.Extensions.Http >= 3.1.9",
@@ -1263,15 +1263,15 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj": {
-              "projectPath": "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj"
+            "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\LeicaInstallation.Shared\\LeicaInstallation.Shared.csproj": {
+              "projectPath": "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\LeicaInstallation.Shared\\LeicaInstallation.Shared.csproj"
             }
           }
         },
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj": {
-              "projectPath": "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj"
+            "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\LeicaInstallation.Shared\\LeicaInstallation.Shared.csproj": {
+              "projectPath": "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\LeicaInstallation.Shared\\LeicaInstallation.Shared.csproj"
             }
           }
         }

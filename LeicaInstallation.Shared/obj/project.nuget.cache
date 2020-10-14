@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "N3nkSWNbIGBIgJXtfTrdGxjmI+oejdcBPSKGUwOHBl6VWKDiqSqvAgwnt4AyYCmT46cYY3instvw1FryJTUv7g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\LeicaInstallation.Shared\\LeicaInstallation.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kkz\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\kkz\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

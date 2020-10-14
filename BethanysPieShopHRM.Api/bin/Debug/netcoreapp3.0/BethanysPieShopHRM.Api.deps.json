@@ -24,7 +24,7 @@
     ".NETCoreApp,Version=v3.0": {
       "BethanysPieShopHRM.Api/1.0.0": {
         "dependencies": {
-          "BethanysPieShopHRM.Shared": "1.0.0",
+          "LeicaInstallation.Shared": "1.0.0",
           "Microsoft.EntityFrameworkCore.InMemory": "3.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "3.0.0",
@@ -1098,12 +1098,12 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
-      "BethanysPieShopHRM.Shared/1.0.0": {
+      "LeicaInstallation.Shared/1.0.0": {
         "runtime": {
-          "BethanysPieShopHRM.Shared.dll": {}
+          "LeicaInstallation.Shared.dll": {}
         },
         "compile": {
-          "BethanysPieShopHRM.Shared.dll": {}
+          "LeicaInstallation.Shared.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.0.0.0": {
@@ -3415,7 +3415,7 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "BethanysPieShopHRM.Shared/1.0.0": {
+    "LeicaInstallation.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

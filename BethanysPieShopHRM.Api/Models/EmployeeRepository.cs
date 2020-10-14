@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using BethanysPieShopHRM.Shared;
+using LeicaInstallation.Shared;
 
 namespace LeicaInstallationServer.Api.Models
 {

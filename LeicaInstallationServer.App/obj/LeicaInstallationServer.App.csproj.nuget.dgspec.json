@@ -4,14 +4,14 @@
     "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\LeicaInstallationServer.App\\LeicaInstallationServer.App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj": {
+    "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\LeicaInstallation.Shared\\LeicaInstallation.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj",
-        "projectName": "BethanysPieShopHRM.Shared",
-        "projectPath": "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\LeicaInstallation.Shared\\LeicaInstallation.Shared.csproj",
+        "projectName": "LeicaInstallation.Shared",
+        "projectPath": "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\LeicaInstallation.Shared\\LeicaInstallation.Shared.csproj",
         "packagesPath": "C:\\Users\\kkz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\BethanysPieShopHRM.Shared\\obj\\",
+        "outputPath": "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\LeicaInstallation.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kkz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -86,15 +86,15 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj": {
-                "projectPath": "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj"
+              "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\LeicaInstallation.Shared\\LeicaInstallation.Shared.csproj": {
+                "projectPath": "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\LeicaInstallation.Shared\\LeicaInstallation.Shared.csproj"
               }
             }
           },
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj": {
-                "projectPath": "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj"
+              "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\LeicaInstallation.Shared\\LeicaInstallation.Shared.csproj": {
+                "projectPath": "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\LeicaInstallation.Shared\\LeicaInstallation.Shared.csproj"
               }
             }
           }

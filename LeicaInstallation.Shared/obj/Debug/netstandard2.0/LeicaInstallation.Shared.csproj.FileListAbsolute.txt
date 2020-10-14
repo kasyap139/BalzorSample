@@ -1,0 +1,8 @@
+C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallation.Shared\bin\Debug\netstandard2.0\LeicaInstallation.Shared.deps.json
+C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallation.Shared\bin\Debug\netstandard2.0\LeicaInstallation.Shared.dll
+C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallation.Shared\bin\Debug\netstandard2.0\LeicaInstallation.Shared.pdb
+C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallation.Shared\obj\Debug\netstandard2.0\LeicaInstallation.Shared.AssemblyInfoInputs.cache
+C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallation.Shared\obj\Debug\netstandard2.0\LeicaInstallation.Shared.AssemblyInfo.cs
+C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallation.Shared\obj\Debug\netstandard2.0\LeicaInstallation.Shared.csproj.CoreCompileInputs.cache
+C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallation.Shared\obj\Debug\netstandard2.0\LeicaInstallation.Shared.dll
+C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallation.Shared\obj\Debug\netstandard2.0\LeicaInstallation.Shared.pdb

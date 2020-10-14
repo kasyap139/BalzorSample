@@ -24,7 +24,7 @@
     ".NETCoreApp,Version=v3.1": {
       "LeicaInstallationServer.App/1.0.0": {
         "dependencies": {
-          "BethanysPieShopHRM.Shared": "1.0.0",
+          "LeicaInstallation.Shared": "1.0.0",
           "Microsoft.AspNetCore.Components": "3.1.9",
           "Microsoft.AspNetCore.Components.Web": "3.1.9",
           "Microsoft.Extensions.Http": "3.1.9",
@@ -435,12 +435,12 @@
           "lib/netcoreapp3.0/System.Text.Json.dll": {}
         }
       },
-      "BethanysPieShopHRM.Shared/1.0.0": {
+      "LeicaInstallation.Shared/1.0.0": {
         "runtime": {
-          "BethanysPieShopHRM.Shared.dll": {}
+          "LeicaInstallation.Shared.dll": {}
         },
         "compile": {
-          "BethanysPieShopHRM.Shared.dll": {}
+          "LeicaInstallation.Shared.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.0.0": {
@@ -1484,7 +1484,7 @@
       "path": "system.text.json/4.7.1",
       "hashPath": "system.text.json.4.7.1.nupkg.sha512"
     },
-    "BethanysPieShopHRM.Shared/1.0.0": {
+    "LeicaInstallation.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

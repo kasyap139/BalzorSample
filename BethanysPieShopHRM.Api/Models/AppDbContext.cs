@@ -1,5 +1,5 @@
 ﻿using System;
-using BethanysPieShopHRM.Shared;
+using LeicaInstallation.Shared;
 using Microsoft.EntityFrameworkCore;
 
 namespace LeicaInstallationServer.Api.Models

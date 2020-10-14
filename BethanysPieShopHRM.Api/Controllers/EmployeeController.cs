@@ -1,5 +1,5 @@
 ﻿using LeicaInstallationServer.Api.Models;
-using BethanysPieShopHRM.Shared;
+using LeicaInstallation.Shared;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LeicaInstallationServer.Api.Controllers

@@ -1,5 +1,5 @@
 ﻿using LeicaInstallationServer.App.Services;
-using BethanysPieShopHRM.Shared;
+using LeicaInstallation.Shared;
 using Microsoft.AspNetCore.Components;
 using System;
 using System.Collections.Generic;

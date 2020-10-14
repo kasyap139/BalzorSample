@@ -185,9 +185,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj",
-      "projectName": "BethanysPieShopHRM.Shared",
-      "projectPath": "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\BethanysPieShopHRM.Shared\\LeicaInstallation.Shared.csproj",
+      "projectName": "LeicaInstallation.Shared",
+      "projectPath": "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\BethanysPieShopHRM.Shared\\LeicaInstallation.Shared.csproj",
       "packagesPath": "C:\\Users\\kkz\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\BethanysPieShopHRM.Shared\\obj\\",
       "projectStyle": "PackageReference",

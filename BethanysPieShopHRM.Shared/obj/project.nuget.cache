@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6sFhLSziVfkiOVbZo66OLUA/W5o17zBK5XuHPwpw4uYO1QNF+25HZ1xnXnneAGj+xHPco2j6Gkjgw6LLGYsfPw==",
+  "dgSpecHash": "5bec59dHA7YmwL/GZ2Un3Tg6yabozCnAeTbB45+6SosOt4akwZf7KB4eS2nXt77TosPJLLDa1xZr/ohtMmffWQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj",
+  "projectFilePath": "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\BethanysPieShopHRM.Shared\\LeicaInstallation.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kkz\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\kkz\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
