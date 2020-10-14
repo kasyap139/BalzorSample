@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kkz\\source\\repos\\BethanysPieShopHRM.App\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj",
       "projectName": "BethanysPieShopHRM.Shared",
-      "projectPath": "C:\\Users\\kkz\\source\\repos\\BethanysPieShopHRM.App\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj",
+      "projectPath": "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj",
       "packagesPath": "C:\\Users\\kkz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kkz\\source\\repos\\BethanysPieShopHRM.App\\BethanysPieShopHRM.Shared\\obj\\",
+      "outputPath": "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\BethanysPieShopHRM.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kkz\\AppData\\Roaming\\NuGet\\NuGet.Config",

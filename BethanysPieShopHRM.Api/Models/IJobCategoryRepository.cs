@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using BethanysPieShopHRM.Shared;
 
-namespace BethanysPieShopHRM.Api.Models
+namespace LeicaInstallationServer.Api.Models
 {
     public interface IJobCategoryRepository
     {

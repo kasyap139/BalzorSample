@@ -219,7 +219,17 @@
           "lib/netcoreapp3.0/System.Text.Json.dll": {}
         }
       },
-      "BethanysPieShopHRM.App/1.0.0": {
+      "BethanysPieShopHRM.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/BethanysPieShopHRM.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BethanysPieShopHRM.Shared.dll": {}
+        }
+      },
+      "LeicaInstallationServer.App/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -230,20 +240,10 @@
           "System.Net.Http.Json": "3.2.0"
         },
         "compile": {
-          "bin/placeholder/BethanysPieShopHRM.App.dll": {}
+          "bin/placeholder/LeicaInstallationServer.App.dll": {}
         },
         "runtime": {
-          "bin/placeholder/BethanysPieShopHRM.App.dll": {}
-        }
-      },
-      "BethanysPieShopHRM.Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/BethanysPieShopHRM.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BethanysPieShopHRM.Shared.dll": {}
+          "bin/placeholder/LeicaInstallationServer.App.dll": {}
         }
       }
     }
@@ -568,20 +568,20 @@
         "version.txt"
       ]
     },
-    "BethanysPieShopHRM.App/1.0.0": {
-      "type": "project",
-      "path": "../BethanysPieShopHRM.App/BethanysPieShopHRM.App.csproj",
-      "msbuildProject": "../BethanysPieShopHRM.App/BethanysPieShopHRM.App.csproj"
-    },
     "BethanysPieShopHRM.Shared/1.0.0": {
       "type": "project",
       "path": "../BethanysPieShopHRM.Shared/BethanysPieShopHRM.Shared.csproj",
       "msbuildProject": "../BethanysPieShopHRM.Shared/BethanysPieShopHRM.Shared.csproj"
+    },
+    "LeicaInstallationServer.App/1.0.0": {
+      "type": "project",
+      "path": "../LeicaInstallationServer.App/LeicaInstallationServer.App.csproj",
+      "msbuildProject": "../LeicaInstallationServer.App/LeicaInstallationServer.App.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "BethanysPieShopHRM.App >= 1.0.0"
+      "LeicaInstallationServer.App >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -590,11 +590,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kkz\\source\\repos\\BethanysPieShopHRM.App\\InstallationServerApp\\InstallationServerApp.csproj",
+      "projectUniqueName": "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\InstallationServerApp\\InstallationServerApp.csproj",
       "projectName": "InstallationServerApp",
-      "projectPath": "C:\\Users\\kkz\\source\\repos\\BethanysPieShopHRM.App\\InstallationServerApp\\InstallationServerApp.csproj",
+      "projectPath": "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\InstallationServerApp\\InstallationServerApp.csproj",
       "packagesPath": "C:\\Users\\kkz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kkz\\source\\repos\\BethanysPieShopHRM.App\\InstallationServerApp\\obj\\",
+      "outputPath": "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\InstallationServerApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kkz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -611,8 +611,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\kkz\\source\\repos\\BethanysPieShopHRM.App\\BethanysPieShopHRM.App\\BethanysPieShopHRM.App.csproj": {
-              "projectPath": "C:\\Users\\kkz\\source\\repos\\BethanysPieShopHRM.App\\BethanysPieShopHRM.App\\BethanysPieShopHRM.App.csproj"
+            "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\LeicaInstallationServer.App\\LeicaInstallationServer.App.csproj": {
+              "projectPath": "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\LeicaInstallationServer.App\\LeicaInstallationServer.App.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Oc/24hIwTUWg7rcpRJlxd6ArXj+BjAoyc16xNMnKA7bf/CxpEqrJCIiIIj1DVAZSDa8TINjrK3VLRG5oNZO1pg==",
+  "dgSpecHash": "01/YfzVCOwgR768VF3KObKXbvCh2r91k9QsXhsh0kYFGPm8gQM6dMcl/0UrY6VnyDrKjUmN5gKboQornWyx6sg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kkz\\source\\repos\\BethanysPieShopHRM.App\\BethanysPieShopHRM.Api\\BethanysPieShopHRM.Api.csproj",
+  "projectFilePath": "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\BethanysPieShopHRM.Api\\BethanysPieShopHRM.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kkz\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
     "C:\\Users\\kkz\\.nuget\\packages\\microsoft.data.sqlclient\\1.0.19249.1\\microsoft.data.sqlclient.1.0.19249.1.nupkg.sha512",

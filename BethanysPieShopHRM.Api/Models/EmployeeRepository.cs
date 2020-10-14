@@ -2,7 +2,7 @@
 using System.Linq;
 using BethanysPieShopHRM.Shared;
 
-namespace BethanysPieShopHRM.Api.Models
+namespace LeicaInstallationServer.Api.Models
 {
     public class EmployeeRepository : IEmployeeRepository
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using BethanysPieShopHRM.Shared;
 
-namespace BethanysPieShopHRM.Api.Models
+namespace LeicaInstallationServer.Api.Models
 {
     public interface ICountryRepository
     {

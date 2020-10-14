@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BethanysPieShopHRM.App\BethanysPieShopHRM.App.csproj" />
+    <ProjectReference Include="..\LeicaInstallationServer.App\LeicaInstallationServer.App.csproj" />
   </ItemGroup>
 
 </Project>

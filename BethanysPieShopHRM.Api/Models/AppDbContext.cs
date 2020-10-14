@@ -2,7 +2,7 @@
 using BethanysPieShopHRM.Shared;
 using Microsoft.EntityFrameworkCore;
 
-namespace BethanysPieShopHRM.Api.Models
+namespace LeicaInstallationServer.Api.Models
 {
     public class AppDbContext : DbContext
     {

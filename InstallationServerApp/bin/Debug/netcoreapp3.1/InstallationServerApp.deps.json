@@ -24,7 +24,7 @@
     ".NETCoreApp,Version=v3.1": {
       "InstallationServerApp/1.0.0": {
         "dependencies": {
-          "BethanysPieShopHRM.App": "1.0.0",
+          "LeicaInstallationServer.App": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -546,7 +546,15 @@
           "lib/netcoreapp3.0/System.Text.Json.dll": {}
         }
       },
-      "BethanysPieShopHRM.App/1.0.0": {
+      "BethanysPieShopHRM.Shared/1.0.0": {
+        "runtime": {
+          "BethanysPieShopHRM.Shared.dll": {}
+        },
+        "compile": {
+          "BethanysPieShopHRM.Shared.dll": {}
+        }
+      },
+      "LeicaInstallationServer.App/1.0.0": {
         "dependencies": {
           "BethanysPieShopHRM.Shared": "1.0.0",
           "Microsoft.AspNetCore.Components": "3.1.9",
@@ -555,18 +563,10 @@
           "System.Net.Http.Json": "3.2.0"
         },
         "runtime": {
-          "BethanysPieShopHRM.App.dll": {}
+          "LeicaInstallationServer.App.dll": {}
         },
         "compile": {
-          "BethanysPieShopHRM.App.dll": {}
-        }
-      },
-      "BethanysPieShopHRM.Shared/1.0.0": {
-        "runtime": {
-          "BethanysPieShopHRM.Shared.dll": {}
-        },
-        "compile": {
-          "BethanysPieShopHRM.Shared.dll": {}
+          "LeicaInstallationServer.App.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -2300,12 +2300,12 @@
       "path": "system.text.json/4.7.1",
       "hashPath": "system.text.json.4.7.1.nupkg.sha512"
     },
-    "BethanysPieShopHRM.App/1.0.0": {
+    "BethanysPieShopHRM.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "BethanysPieShopHRM.Shared/1.0.0": {
+    "LeicaInstallationServer.App/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace BethanysPieShopHRM.Api.Migrations
+namespace LeicaInstallationServer.Api.Migrations
 {
     public partial class Initial : Migration
     {

@@ -1240,11 +1240,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kkz\\source\\repos\\BethanysPieShopHRM.App\\BethanysPieShopHRM.App\\BethanysPieShopHRM.App.csproj",
-      "projectName": "BethanysPieShopHRM.App",
-      "projectPath": "C:\\Users\\kkz\\source\\repos\\BethanysPieShopHRM.App\\BethanysPieShopHRM.App\\BethanysPieShopHRM.App.csproj",
+      "projectUniqueName": "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\BethanysPieShopHRM.App\\LeicaInstallationServer.App.csproj",
+      "projectName": "LeicaInstallationServer.App",
+      "projectPath": "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\BethanysPieShopHRM.App\\LeicaInstallationServer.App.csproj",
       "packagesPath": "C:\\Users\\kkz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kkz\\source\\repos\\BethanysPieShopHRM.App\\BethanysPieShopHRM.App\\obj\\",
+      "outputPath": "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\BethanysPieShopHRM.App\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
@@ -1263,15 +1263,15 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\kkz\\source\\repos\\BethanysPieShopHRM.App\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj": {
-              "projectPath": "C:\\Users\\kkz\\source\\repos\\BethanysPieShopHRM.App\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj"
+            "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj": {
+              "projectPath": "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj"
             }
           }
         },
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Users\\kkz\\source\\repos\\BethanysPieShopHRM.App\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj": {
-              "projectPath": "C:\\Users\\kkz\\source\\repos\\BethanysPieShopHRM.App\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj"
+            "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj": {
+              "projectPath": "C:\\Users\\kkz\\source\\repos\\CentralizedInstallationServer\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj"
             }
           }
         }

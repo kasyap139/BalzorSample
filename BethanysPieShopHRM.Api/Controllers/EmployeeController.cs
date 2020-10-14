@@ -1,8 +1,8 @@
-﻿using BethanysPieShopHRM.Api.Models;
+﻿using LeicaInstallationServer.Api.Models;
 using BethanysPieShopHRM.Shared;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BethanysPieShopHRM.Api.Controllers
+namespace LeicaInstallationServer.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
