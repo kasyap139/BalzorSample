@@ -4,6 +4,17 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup><!--<Compile Remove="Controllers\CountryController.cs" />
+    <Compile Remove="Controllers\JobCategoryController.cs" />-->
+  
+    <Compile Remove="Controllers\CountryController.cs" />
+    <Compile Remove="Controllers\JobCategoryController.cs" />
+    <Compile Remove="Models\CountryRepository.cs" />
+    <Compile Remove="Models\ICountryRepository.cs" />
+    <Compile Remove="Models\IJobCategoryRepository.cs" />
+    <Compile Remove="Models\JobCategoryRepository.cs" />
+  </ItemGroup>
+
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.0.0" />

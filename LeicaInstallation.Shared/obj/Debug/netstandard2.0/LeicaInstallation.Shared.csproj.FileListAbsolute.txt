@@ -5,5 +5,4 @@ C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallation.Shared
 C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallation.Shared\obj\Debug\netstandard2.0\LeicaInstallation.Shared.AssemblyInfo.cs
 C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallation.Shared\obj\Debug\netstandard2.0\LeicaInstallation.Shared.dll
 C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallation.Shared\obj\Debug\netstandard2.0\LeicaInstallation.Shared.pdb
-C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallation.Shared\obj\Debug\netstandard2.0\LeicaInstallation.Shared.csprojAssemblyReference.cache
 C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallation.Shared\obj\Debug\netstandard2.0\LeicaInstallation.Shared.csproj.CoreCompileInputs.cache
