@@ -7,6 +7,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
+
 namespace LeicaInstallationServer.App.Pages
 {
     public partial class EmployeeEdit
@@ -20,7 +21,7 @@ namespace LeicaInstallationServer.App.Pages
 		[Inject]
 		public NavigationManager NavigationManager { get; set; }
 
-        public Employee Employee { get; set; } = new Employee();
+        public Environments Environments { get; set; } = new Environments();
 		protected string Message = string.Empty;
 		protected string StatusClass = string.Empty;
 		protected bool Saved;
@@ -33,11 +34,11 @@ namespace LeicaInstallationServer.App.Pages
 			if (employeeId == 0) //new employee is being created
 			{
 				//add some defaults
-				Employee = new Employee { CountryId = 1, JobCategoryId = 1, BirthDate = DateTime.Now, JoinedDate = DateTime.Now };
+				Environments = new Environments { CountryId = 1, JobCategoryId = 1, BirthDate = DateTime.Now, JoinedDate = DateTime.Now };
 			}
 			else
 			{
-				Employee = await EmployeeDataService.GetEmployeeDetails(int.Parse(EmployeeId));
+				Environments = await EmployeeDataService.GetEmployeeDetails(int.Parse(EmployeeId));
 			}
 		}
 
@@ -45,9 +46,9 @@ namespace LeicaInstallationServer.App.Pages
 		{
 			Saved = false;
 
-			if (Employee.EmployeeId == 0) //new
+			if (Environments.EmployeeId == 0) //new
 			{
-				var addedEmployee = await EmployeeDataService.AddEmployee(Employee);
+				var addedEmployee = await EmployeeDataService.AddEmployee(Environments);
 				if (addedEmployee != null)
 				{
 					StatusClass = "alert-success";
@@ -63,9 +64,9 @@ namespace LeicaInstallationServer.App.Pages
 			}
 			else
 			{
-				await EmployeeDataService.UpdateEmployee(Employee);
+				await EmployeeDataService.UpdateEmployee(Environments);
 				StatusClass = "alert-success";
-				Message = "Employee updated successfully.";
+				Message = "Environments updated successfully.";
 				Saved = true;
 			}
 		}
@@ -78,7 +79,7 @@ namespace LeicaInstallationServer.App.Pages
 
 		protected async Task DeleteEmployee()
 		{
-			await EmployeeDataService.DeleteEmployee(Employee.EmployeeId);
+			await EmployeeDataService.DeleteEmployee(Environments.EmployeeId);
 
 			StatusClass = "alert-success";
 			Message = "Deleted successfully";

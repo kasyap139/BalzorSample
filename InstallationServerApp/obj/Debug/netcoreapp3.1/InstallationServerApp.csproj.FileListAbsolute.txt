@@ -106,3 +106,6 @@ C:\Users\kkz\source\repos\CentralizedInstallationServer\InstallationServerApp\ob
 C:\Users\kkz\source\repos\CentralizedInstallationServer\InstallationServerApp\obj\Debug\netcoreapp3.1\InstallationServerApp.dll
 C:\Users\kkz\source\repos\CentralizedInstallationServer\InstallationServerApp\obj\Debug\netcoreapp3.1\InstallationServerApp.pdb
 C:\Users\kkz\source\repos\CentralizedInstallationServer\InstallationServerApp\obj\Debug\netcoreapp3.1\InstallationServerApp.genruntimeconfig.cache
+C:\Users\kkz\source\repos\CentralizedInstallationServer\InstallationServerApp\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\kkz\source\repos\CentralizedInstallationServer\InstallationServerApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\kkz\source\repos\CentralizedInstallationServer\InstallationServerApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll

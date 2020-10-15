@@ -1,9 +1,11 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace LeicaInstallation.Shared
 {
-    public class Employee
+    public class Environments
     {
+        [Key]
         public int EmployeeId { get; set; }
         public string FirstName { get; set; }
 

@@ -14,7 +14,7 @@ namespace LeicaInstallationServer.App.Pages
 {
     public partial class EmployeeOverview
     {
-		public IEnumerable<Employee> Employees { get; set; }
+		public IEnumerable<Environments> Employees { get; set; }
         public string statusOfPC;
 
         [Inject]

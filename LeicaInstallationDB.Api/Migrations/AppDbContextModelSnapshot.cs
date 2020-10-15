@@ -19,69 +19,69 @@ namespace LeicaInstallationDB.Api.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("BethanysPieShopHRM.Shared.Country", b =>
-                {
-                    b.Property<int>("CountryId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+            //modelBuilder.Entity("BethanysPieShopHRM.Shared.Country", b =>
+            //    {
+            //        b.Property<int>("CountryId")
+            //            .ValueGeneratedOnAdd()
+            //            .HasColumnType("int")
+            //            .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+            //        b.Property<string>("Name")
+            //            .HasColumnType("nvarchar(max)");
 
-                    //b.HasKey("CountryId");
+            //        //b.HasKey("CountryId");
 
-                    //b.ToTable("Countries");
+            //        //b.ToTable("Countries");
 
-                    //    b.HasData(
-                    //        new
-                    //        {
-                    //            CountryId = 1,
-                    //            Name = "Belgium"
-                    //        },
-                    //        new
-                    //        {
-                    //            CountryId = 2,
-                    //            Name = "Germany"
-                    //        },
-                    //        new
-                    //        {
-                    //            CountryId = 3,
-                    //            Name = "Netherlands"
-                    //        },
-                    //        new
-                    //        {
-                    //            CountryId = 4,
-                    //            Name = "USA"
-                    //        },
-                    //        new
-                    //        {
-                    //            CountryId = 5,
-                    //            Name = "Japan"
-                    //        },
-                    //        new
-                    //        {
-                    //            CountryId = 6,
-                    //            Name = "China"
-                    //        },
-                    //        new
-                    //        {
-                    //            CountryId = 7,
-                    //            Name = "UK"
-                    //        },
-                    //        new
-                    //        {
-                    //            CountryId = 8,
-                    //            Name = "France"
-                    //        },
-                    //        new
-                    //        {
-                    //            CountryId = 9,
-                    //            Name = "Brazil"
-                    //        });
-                });
+            //        //    b.HasData(
+            //        //        new
+            //        //        {
+            //        //            CountryId = 1,
+            //        //            Name = "Belgium"
+            //        //        },
+            //        //        new
+            //        //        {
+            //        //            CountryId = 2,
+            //        //            Name = "Germany"
+            //        //        },
+            //        //        new
+            //        //        {
+            //        //            CountryId = 3,
+            //        //            Name = "Netherlands"
+            //        //        },
+            //        //        new
+            //        //        {
+            //        //            CountryId = 4,
+            //        //            Name = "USA"
+            //        //        },
+            //        //        new
+            //        //        {
+            //        //            CountryId = 5,
+            //        //            Name = "Japan"
+            //        //        },
+            //        //        new
+            //        //        {
+            //        //            CountryId = 6,
+            //        //            Name = "China"
+            //        //        },
+            //        //        new
+            //        //        {
+            //        //            CountryId = 7,
+            //        //            Name = "UK"
+            //        //        },
+            //        //        new
+            //        //        {
+            //        //            CountryId = 8,
+            //        //            Name = "France"
+            //        //        },
+            //        //        new
+            //        //        {
+            //        //            CountryId = 9,
+            //        //            Name = "Brazil"
+            //        //        });
+            //    });
 
-            modelBuilder.Entity("BethanysPieShopHRM.Shared.Employee", b =>
+            modelBuilder.Entity("LeicaInstallation.Shared.Environments", b =>
                 {
                     b.Property<int>("EmployeeId")
                         .ValueGeneratedOnAdd()
@@ -148,7 +148,7 @@ namespace LeicaInstallationDB.Api.Migrations
 
                     b.HasIndex("JobCategoryId");
 
-                    b.ToTable("Employees");
+                    b.ToTable("Environments");
 
                     b.HasData(
                         new
@@ -257,7 +257,7 @@ namespace LeicaInstallationDB.Api.Migrations
             //            });
             //    });
 
-            //modelBuilder.Entity("BethanysPieShopHRM.Shared.Employee", b =>
+            //modelBuilder.Entity("BethanysPieShopHRM.Shared.Environments", b =>
             //    {
             //        b.HasOne("BethanysPieShopHRM.Shared.Country", "Country")
             //            .WithMany()

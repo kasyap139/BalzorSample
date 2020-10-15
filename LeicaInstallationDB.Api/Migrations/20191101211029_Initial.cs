@@ -34,7 +34,7 @@ namespace LeicaInstallationServer.Api.Migrations
             //    });
 
             migrationBuilder.CreateTable(
-                name: "Employees",
+                name: "Environments",
                 columns: table => new
                 {
                     EmployeeId = table.Column<int>(nullable: false)
@@ -108,12 +108,12 @@ namespace LeicaInstallationServer.Api.Migrations
             //    });
 
             migrationBuilder.InsertData(
-                table: "Employees",
+                table: "Environments",
                 columns: new[] { "EmployeeId", "BirthDate", "City", "Comment", "CountryId", "Email", "ExitDate", "FirstName", "Gender", "JobCategoryId", "JoinedDate", "LastName", "Latitude", "Longitude", "MaritalStatus", "PhoneNumber", "Smoker", "Street", "Zip" },
                 values: new object[] { 1, new DateTime(1979, 1, 16, 0, 0, 0, 0, DateTimeKind.Unspecified), "Brussels", "Lorem Ipsum", 1, "bethany@bethanyspieshop.com", null, "Bethany", 1, 1, new DateTime(2015, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Smith", 50.850299999999997, 4.3517000000000001, 1, "324777888773", false, "Grote Markt 1", "1000" });
 
             migrationBuilder.InsertData(
-                table: "Employees",
+                table: "Environments",
                 columns: new[] { "EmployeeId", "BirthDate", "City", "Comment", "CountryId", "Email", "ExitDate", "FirstName", "Gender", "JobCategoryId", "JoinedDate", "LastName", "Latitude", "Longitude", "MaritalStatus", "PhoneNumber", "Smoker", "Street", "Zip" },
                 values: new object[] { 2, new DateTime(1979, 1, 16, 0, 0, 0, 0, DateTimeKind.Unspecified), "Antwerp", "Lorem Ipsum", 2, "gill@bethanyspieshop.com", null, "Gill", 0, 1, new DateTime(2017, 12, 24, 0, 0, 0, 0, DateTimeKind.Unspecified), "Cleeren", 50.850299999999997, 4.3517000000000001, 0, "33999909923", false, "New Street", "2000" });
 
@@ -131,7 +131,7 @@ namespace LeicaInstallationServer.Api.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Employees");
+                name: "Environments");
 
             //migrationBuilder.DropTable(
             //    name: "Countries");

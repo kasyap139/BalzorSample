@@ -6,52 +6,52 @@
 {
 
     <section class="employee-edit">
-        <h1 class="page-title">Details for @Employee.FirstName @Employee.LastName</h1>
-        <EditForm Model="@Employee" OnValidSubmit="@HandleValidSubmit" OnInvalidSubmit="@HandleInvalidSubmit">
+        <h1 class="page-title">Details for @Environments.FirstName @Environments.LastName</h1>
+        <EditForm Model="@Environments" OnValidSubmit="@HandleValidSubmit" OnInvalidSubmit="@HandleInvalidSubmit">
             <div class="form-group row">
                 <label for="lastName" class="col-sm-3">Environment IP: </label>
-                <InputText id="lastName" @bind-Value="@Employee.LastName" class="form-control col-sm-8" placeholder="Enter IP Address"></InputText>
+                <InputText id="lastName" @bind-Value="@Environments.LastName" class="form-control col-sm-8" placeholder="Enter IP Address"></InputText>
             </div>
 
             <div class="form-group row">
                 <label for="firstName" class="col-sm-3">Environment Name: </label>
-                <InputText id="firstName" class="form-control col-sm-8" @bind-Value="@Employee.FirstName" placeholder="Enter PC Name"></InputText>
+                <InputText id="firstName" class="form-control col-sm-8" @bind-Value="@Environments.FirstName" placeholder="Enter PC Name"></InputText>
 
             </div>
 
             <div class="form-group row">
                 <label for="birthdate" class="col-sm-3">Added Date: </label>
-                <InputDate id="birthdate" class="form-control col-sm-8" @bind-Value="@Employee.BirthDate" placeholder="Enter Today's Date"></InputDate>
+                <InputDate id="birthdate" class="form-control col-sm-8" @bind-Value="@Environments.BirthDate" placeholder="Enter Today's Date"></InputDate>
 
             </div>
 
             @*<div class="form-group row">
                 <label for="email" class="col-sm-3">Email: </label>
-                <InputText id="email" class="form-control col-sm-8" @bind-Value="@Employee.Email" placeholder="Enter email"></InputText>
+                <InputText id="email" class="form-control col-sm-8" @bind-Value="@Environments.Email" placeholder="Enter email"></InputText>
 
             </div>*@
 
             <div class="form-group row">
                 <label for="street" class="col-sm-3">Added By: </label>
-                <InputText id="street" class="form-control col-sm-8" @bind-Value="@Employee.Street" placeholder="Enter your name"></InputText>
+                <InputText id="street" class="form-control col-sm-8" @bind-Value="@Environments.Street" placeholder="Enter your name"></InputText>
 
             </div>
 
             @*<div class="form-group row">
                 <label for="zip" class="col-sm-3">Zip code: </label>
-                <InputText id="zip" class="form-control col-sm-8" @bind-Value="@Employee.Zip" placeholder="Enter zip code"></InputText>
+                <InputText id="zip" class="form-control col-sm-8" @bind-Value="@Environments.Zip" placeholder="Enter zip code"></InputText>
 
             </div>*@
 
             <div class="form-group row">
                 <label for="city" class="col-sm-3">Contact Person: </label>
-                <InputText id="city" class="form-control col-sm-8" @bind-Value="@Employee.City" placeholder="Enter user's name"></InputText>
+                <InputText id="city" class="form-control col-sm-8" @bind-Value="@Environments.City" placeholder="Enter user's name"></InputText>
 
             </div>
 
             <button type="submit" class="btn btn-primary edit-btn">Add Environment</button>
 
-            @if (Employee.EmployeeId > 0)
+            @if (Environments.EmployeeId > 0)
             {
         <a class="btn btn-danger" @onclick="@DeleteEmployee">
             Delete Environment

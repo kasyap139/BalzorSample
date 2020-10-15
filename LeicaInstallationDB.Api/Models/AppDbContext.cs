@@ -11,7 +11,7 @@ namespace LeicaInstallationDB.Api.Models
 
         }
 
-        public DbSet<Employee> Employees { get; set; }
+        public DbSet<Environments> Environments { get; set; }
        // public DbSet<Country> Countries { get; set; }
        // public DbSet<JobCategory> JobCategories { get; set; }
 
@@ -40,7 +40,7 @@ namespace LeicaInstallationDB.Api.Models
             //modelBuilder.Entity<JobCategory>().HasData(new JobCategory() { JobCategoryId = 8, JobCategoryName = "Cleaning" });
             //modelBuilder.Entity<JobCategory>().HasData(new JobCategory() { JobCategoryId = 9, JobCategoryName = "Bakery" });
 
-            modelBuilder.Entity<Employee>().HasData(new Employee
+            modelBuilder.Entity<Environments>().HasData(new Environments
             {
                 EmployeeId = 1,
                 CountryId = 1,
@@ -63,14 +63,14 @@ namespace LeicaInstallationDB.Api.Models
                 Longitude = 4.3517
             });
 
-            modelBuilder.Entity<Employee>().HasData(new Employee
+            modelBuilder.Entity<Environments>().HasData(new Environments
             {
+                EmployeeId = 2,
                 CountryId = 2,
                 //MaritalStatus = MaritalStatus.Married,
                 BirthDate = new DateTime(1979, 1, 16),
                 City = "Antwerp",
-                Email = "gill@bethanyspieshop.com",
-                EmployeeId = 2,
+                Email = "gill@bethanyspieshop.com",       
                 FirstName = "Gill",
                 LastName = "Cleeren",
                 //Gender = Gender.Male,

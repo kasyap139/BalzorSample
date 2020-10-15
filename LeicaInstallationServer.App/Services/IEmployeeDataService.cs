@@ -8,13 +8,13 @@ namespace LeicaInstallationServer.App.Services
 {
     public interface IEmployeeDataService
     {
-        Task<IEnumerable<Employee>> GetAllEmployees();
+        Task<IEnumerable<Environments>> GetAllEmployees();
 
-        Task<Employee> GetEmployeeDetails(int employeeId);
+        Task<Environments> GetEmployeeDetails(int employeeId);
 
-        Task<Employee> AddEmployee(Employee employee);
+        Task<Environments> AddEmployee(Environments employee);
 
-        Task UpdateEmployee(Employee employee);
+        Task UpdateEmployee(Environments employee);
 
         Task DeleteEmployee(int employeeId);
     }

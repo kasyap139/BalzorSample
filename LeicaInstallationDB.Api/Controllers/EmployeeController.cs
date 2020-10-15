@@ -28,7 +28,7 @@ namespace LeicaInstallationDB.Api.Controllers
         }
 
         [HttpPost]
-        public IActionResult CreateEmployee([FromBody] Employee employee)
+        public IActionResult CreateEmployee([FromBody] Environments employee)
         {
             if (employee == null)
                 return BadRequest();
@@ -47,7 +47,7 @@ namespace LeicaInstallationDB.Api.Controllers
         }
 
         [HttpPut]
-        public IActionResult UpdateEmployee([FromBody] Employee employee)
+        public IActionResult UpdateEmployee([FromBody] Environments employee)
         {
             if (employee == null)
                 return BadRequest();

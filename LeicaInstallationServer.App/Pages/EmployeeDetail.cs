@@ -13,14 +13,14 @@ namespace LeicaInstallationServer.App.Pages
 		[Parameter]
 		public string EmployeeId { get; set; }
 
-		public Employee Employee { get; set; } = new Employee();
+		public Environments Environments { get; set; } = new Environments();
 
 		[Inject]
 		public IEmployeeDataService EmployeeDataService { get; set; }
 
 		protected async override Task OnInitializedAsync()
 		{
-			Employee = await EmployeeDataService.GetEmployeeDetails(int.Parse(EmployeeId));
+			Environments = await EmployeeDataService.GetEmployeeDetails(int.Parse(EmployeeId));
 		}
 	}
 }

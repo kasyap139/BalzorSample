@@ -41,3 +41,6 @@ C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationDB.Api\
 C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationDB.Api\obj\Debug\netcoreapp3.0\LeicaInstallationDB.Api.pdb
 C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationDB.Api\obj\Debug\netcoreapp3.0\LeicaInstallationDB.Api.genruntimeconfig.cache
 C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationDB.Api\bin\Debug\netcoreapp3.0\Properties\ServiceDependencies\BethanysPieShopHRMApi - Web Deploy\profile.arm.json
+C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationDB.Api\bin\Debug\netcoreapp3.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationDB.Api\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationDB.Api\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll

@@ -13,26 +13,26 @@ namespace LeicaInstallationDB.Api.Models
             _appDbContext = appDbContext;
         }
 
-        public IEnumerable<Employee> GetAllEmployees()
+        public IEnumerable<Environments> GetAllEmployees()
         {
-            return _appDbContext.Employees;
+            return _appDbContext.Environments;
         }
 
-        public Employee GetEmployeeById(int employeeId)
+        public Environments GetEmployeeById(int employeeId)
         {
-            return _appDbContext.Employees.FirstOrDefault(c => c.EmployeeId == employeeId);
+            return _appDbContext.Environments.FirstOrDefault(c => c.EmployeeId == employeeId);
         }
 
-        public Employee AddEmployee(Employee employee)
+        public Environments AddEmployee(Environments employee)
         {
-            var addedEntity = _appDbContext.Employees.Add(employee);
+            var addedEntity = _appDbContext.Environments.Add(employee);
             _appDbContext.SaveChanges();
             return addedEntity.Entity;
         }
 
-        public Employee UpdateEmployee(Employee employee)
+        public Environments UpdateEmployee(Environments employee)
         {
-            var foundEmployee = _appDbContext.Employees.FirstOrDefault(e => e.EmployeeId == employee.EmployeeId);
+            var foundEmployee = _appDbContext.Environments.FirstOrDefault(e => e.EmployeeId == employee.EmployeeId);
 
             if (foundEmployee != null)
             {
@@ -63,10 +63,10 @@ namespace LeicaInstallationDB.Api.Models
 
         public void DeleteEmployee(int employeeId)
         {
-            var foundEmployee = _appDbContext.Employees.FirstOrDefault(e => e.EmployeeId == employeeId);
+            var foundEmployee = _appDbContext.Environments.FirstOrDefault(e => e.EmployeeId == employeeId);
             if (foundEmployee == null) return;
 
-            _appDbContext.Employees.Remove(foundEmployee);
+            _appDbContext.Environments.Remove(foundEmployee);
             _appDbContext.SaveChanges();
         }
     }
