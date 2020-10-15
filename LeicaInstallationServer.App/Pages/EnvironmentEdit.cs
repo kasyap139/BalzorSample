@@ -11,7 +11,7 @@ namespace LeicaInstallationServer.App.Pages
     public partial class EnvironmentEdit
     {
         [Inject]
-        public IEmployeeDataService EmployeeDataService { get; set; }
+        public IEnvironmentDataService EmployeeDataService { get; set; }
 
         [Parameter]
         public string EmployeeId { get; set; }
@@ -87,7 +87,7 @@ namespace LeicaInstallationServer.App.Pages
 
 		protected void NavigateToOverview()
         {
-			NavigationManager.NavigateTo("/employeeoverview");
+			NavigationManager.NavigateTo("/environmentoverview");
         }
 
 		protected void OpenNotepad()

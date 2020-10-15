@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LeicaInstallationServer.App.Services
 {
-    public interface IEmployeeDataService
+    public interface IEnvironmentDataService
     {
         Task<IEnumerable<Environments>> GetAllEmployees();
 

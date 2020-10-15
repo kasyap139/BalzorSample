@@ -1,4 +1,4 @@
-﻿@page "/employeeoverview"
+﻿@page "/environmentoverview"
 
 <h1 class="page-title">All Environments</h1>
 
@@ -29,10 +29,10 @@ else
                     <td>@employee.LastName</td>
                     <td>@statusOfPC</td>
                     <td>
-                        <a href="@($"employeedetail/{employee.EmployeeId}")" class="btn btn-primary table-btn">
+                        <a href="@($"environmentdetail/{employee.EmployeeId}")" class="btn btn-primary table-btn">
                            <i class="fas fa-info-circle"></i>
                         </a>
-                        <a href="@($"employeeedit/{employee.EmployeeId}")" class="btn btn-primary table-btn">
+                        <a href="@($"environmentedit/{employee.EmployeeId}")" class="btn btn-primary table-btn">
                             <i class="fas fa-edit"></i>
                         </a>
                     </td>

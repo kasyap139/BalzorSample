@@ -18,7 +18,7 @@ namespace LeicaInstallationServer.App.Pages
         public string statusOfPC;
 
         [Inject]
-		public IEmployeeDataService EmployeeDataService { get; set; }
+		public IEnvironmentDataService EmployeeDataService { get; set; }
 	
 		protected async override Task OnInitializedAsync()
 		{

@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace LeicaInstallationServer.App.Services
 {
-    public class EmployeeDataService: IEmployeeDataService
+    public class EnvironmentDataService: IEnvironmentDataService
     {
         private readonly HttpClient _httpClient;
 
-        public EmployeeDataService(HttpClient httpClient)
+        public EnvironmentDataService(HttpClient httpClient)
         {
             _httpClient = httpClient;
         }

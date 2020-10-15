@@ -29,7 +29,7 @@ namespace LeicaInstallationServer.App
             services.AddRazorPages();
             services.AddServerSideBlazor();
 
-            services.AddHttpClient<IEmployeeDataService, EmployeeDataService>(client =>
+            services.AddHttpClient<IEnvironmentDataService, EnvironmentDataService>(client =>
             {
                 client.BaseAddress = new Uri("https://localhost:44340/");
             });
