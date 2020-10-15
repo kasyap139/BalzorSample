@@ -16,18 +16,18 @@ namespace LeicaInstallationDB.Api.Controllers
             _countryRepository = countryRepository;
         }
 
-        // GET: api/<controller>
-        [HttpGet]
-        public IActionResult GetCountries()
-        {
-            return Ok(_countryRepository.GetAllCountries());
-        }
+        //// GET: api/<controller>
+        //[HttpGet]
+        //public IActionResult GetCountries()
+        //{
+        //    return Ok(_countryRepository.GetAllCountries());
+        //}
 
-        // GET api/<controller>/5
-        [HttpGet("{id}")]
-        public IActionResult GetCountryById(int id)
-        {
-            return Ok(_countryRepository.GetCountryById(id));
-        }
+        //// GET api/<controller>/5
+        //[HttpGet("{id}")]
+        //public IActionResult GetCountryById(int id)
+        //{
+        //    return Ok(_countryRepository.GetCountryById(id));
+        //}
     }
 }

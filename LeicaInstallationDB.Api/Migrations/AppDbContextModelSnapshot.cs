@@ -29,56 +29,56 @@ namespace LeicaInstallationDB.Api.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("CountryId");
+                    //b.HasKey("CountryId");
 
-                    b.ToTable("Countries");
+                    //b.ToTable("Countries");
 
-                    b.HasData(
-                        new
-                        {
-                            CountryId = 1,
-                            Name = "Belgium"
-                        },
-                        new
-                        {
-                            CountryId = 2,
-                            Name = "Germany"
-                        },
-                        new
-                        {
-                            CountryId = 3,
-                            Name = "Netherlands"
-                        },
-                        new
-                        {
-                            CountryId = 4,
-                            Name = "USA"
-                        },
-                        new
-                        {
-                            CountryId = 5,
-                            Name = "Japan"
-                        },
-                        new
-                        {
-                            CountryId = 6,
-                            Name = "China"
-                        },
-                        new
-                        {
-                            CountryId = 7,
-                            Name = "UK"
-                        },
-                        new
-                        {
-                            CountryId = 8,
-                            Name = "France"
-                        },
-                        new
-                        {
-                            CountryId = 9,
-                            Name = "Brazil"
-                        });
+                    //    b.HasData(
+                    //        new
+                    //        {
+                    //            CountryId = 1,
+                    //            Name = "Belgium"
+                    //        },
+                    //        new
+                    //        {
+                    //            CountryId = 2,
+                    //            Name = "Germany"
+                    //        },
+                    //        new
+                    //        {
+                    //            CountryId = 3,
+                    //            Name = "Netherlands"
+                    //        },
+                    //        new
+                    //        {
+                    //            CountryId = 4,
+                    //            Name = "USA"
+                    //        },
+                    //        new
+                    //        {
+                    //            CountryId = 5,
+                    //            Name = "Japan"
+                    //        },
+                    //        new
+                    //        {
+                    //            CountryId = 6,
+                    //            Name = "China"
+                    //        },
+                    //        new
+                    //        {
+                    //            CountryId = 7,
+                    //            Name = "UK"
+                    //        },
+                    //        new
+                    //        {
+                    //            CountryId = 8,
+                    //            Name = "France"
+                    //        },
+                    //        new
+                    //        {
+                    //            CountryId = 9,
+                    //            Name = "Brazil"
+                    //        });
                 });
 
             modelBuilder.Entity("BethanysPieShopHRM.Shared.Employee", b =>
@@ -109,8 +109,8 @@ namespace LeicaInstallationDB.Api.Migrations
                     b.Property<string>("FirstName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Gender")
-                        .HasColumnType("int");
+                    //b.Property<int>("Gender")
+                    //    .HasColumnType("int");
 
                     b.Property<int>("JobCategoryId")
                         .HasColumnType("int");
@@ -160,15 +160,15 @@ namespace LeicaInstallationDB.Api.Migrations
                             CountryId = 1,
                             Email = "bethany@bethanyspieshop.com",
                             FirstName = "Bethany",
-                            Gender = 1,
-                            JobCategoryId = 1,
+                         //   Gender = 1,
+                         //   JobCategoryId = 1,
                             JoinedDate = new DateTime(2015, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             LastName = "Smith",
                             Latitude = 50.850299999999997,
                             Longitude = 4.3517000000000001,
                             MaritalStatus = 1,
                             PhoneNumber = "324777888773",
-                            Smoker = false,
+                           // Smoker = false,
                             Street = "Grote Markt 1",
                             Zip = "1000"
                         },
@@ -181,96 +181,96 @@ namespace LeicaInstallationDB.Api.Migrations
                             CountryId = 2,
                             Email = "gill@bethanyspieshop.com",
                             FirstName = "Gill",
-                            Gender = 0,
-                            JobCategoryId = 1,
+                           // Gender = 0,
+                            //JobCategoryId = 1,
                             JoinedDate = new DateTime(2017, 12, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             LastName = "Cleeren",
                             Latitude = 50.850299999999997,
                             Longitude = 4.3517000000000001,
                             MaritalStatus = 0,
                             PhoneNumber = "33999909923",
-                            Smoker = false,
+                           // Smoker = false,
                             Street = "New Street",
                             Zip = "2000"
                         });
                 });
 
-            modelBuilder.Entity("BethanysPieShopHRM.Shared.JobCategory", b =>
-                {
-                    b.Property<int>("JobCategoryId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+            //modelBuilder.Entity("BethanysPieShopHRM.Shared.JobCategory", b =>
+            //    {
+            //        b.Property<int>("JobCategoryId")
+            //            .ValueGeneratedOnAdd()
+            //            .HasColumnType("int")
+            //            .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("JobCategoryName")
-                        .HasColumnType("nvarchar(max)");
+            //        b.Property<string>("JobCategoryName")
+            //            .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("JobCategoryId");
+            //        b.HasKey("JobCategoryId");
 
-                    b.ToTable("JobCategories");
+            //        b.ToTable("JobCategories");
 
-                    b.HasData(
-                        new
-                        {
-                            JobCategoryId = 1,
-                            JobCategoryName = "Pie research"
-                        },
-                        new
-                        {
-                            JobCategoryId = 2,
-                            JobCategoryName = "Sales"
-                        },
-                        new
-                        {
-                            JobCategoryId = 3,
-                            JobCategoryName = "Management"
-                        },
-                        new
-                        {
-                            JobCategoryId = 4,
-                            JobCategoryName = "Store staff"
-                        },
-                        new
-                        {
-                            JobCategoryId = 5,
-                            JobCategoryName = "Finance"
-                        },
-                        new
-                        {
-                            JobCategoryId = 6,
-                            JobCategoryName = "QA"
-                        },
-                        new
-                        {
-                            JobCategoryId = 7,
-                            JobCategoryName = "IT"
-                        },
-                        new
-                        {
-                            JobCategoryId = 8,
-                            JobCategoryName = "Cleaning"
-                        },
-                        new
-                        {
-                            JobCategoryId = 9,
-                            JobCategoryName = "Bakery"
-                        });
-                });
+            //        b.HasData(
+            //            new
+            //            {
+            //                JobCategoryId = 1,
+            //                JobCategoryName = "Pie research"
+            //            },
+            //            new
+            //            {
+            //                JobCategoryId = 2,
+            //                JobCategoryName = "Sales"
+            //            },
+            //            new
+            //            {
+            //                JobCategoryId = 3,
+            //                JobCategoryName = "Management"
+            //            },
+            //            new
+            //            {
+            //                JobCategoryId = 4,
+            //                JobCategoryName = "Store staff"
+            //            },
+            //            new
+            //            {
+            //                JobCategoryId = 5,
+            //                JobCategoryName = "Finance"
+            //            },
+            //            new
+            //            {
+            //                JobCategoryId = 6,
+            //                JobCategoryName = "QA"
+            //            },
+            //            new
+            //            {
+            //                JobCategoryId = 7,
+            //                JobCategoryName = "IT"
+            //            },
+            //            new
+            //            {
+            //                JobCategoryId = 8,
+            //                JobCategoryName = "Cleaning"
+            //            },
+            //            new
+            //            {
+            //                JobCategoryId = 9,
+            //                JobCategoryName = "Bakery"
+            //            });
+            //    });
 
-            modelBuilder.Entity("BethanysPieShopHRM.Shared.Employee", b =>
-                {
-                    b.HasOne("BethanysPieShopHRM.Shared.Country", "Country")
-                        .WithMany()
-                        .HasForeignKey("CountryId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+            //modelBuilder.Entity("BethanysPieShopHRM.Shared.Employee", b =>
+            //    {
+            //        b.HasOne("BethanysPieShopHRM.Shared.Country", "Country")
+            //            .WithMany()
+            //            .HasForeignKey("CountryId")
+            //            .OnDelete(DeleteBehavior.Cascade)
+            //            .IsRequired();
 
-                    b.HasOne("BethanysPieShopHRM.Shared.JobCategory", "JobCategory")
-                        .WithMany()
-                        .HasForeignKey("JobCategoryId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
+            //        b.HasOne("BethanysPieShopHRM.Shared.JobCategory", "JobCategory")
+            //            .WithMany()
+            //            .HasForeignKey("JobCategoryId")
+            //            .OnDelete(DeleteBehavior.Cascade)
+            //            .IsRequired();
+            //    });
 #pragma warning restore 612, 618
         }
     }

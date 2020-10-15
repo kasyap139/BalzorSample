@@ -4,4 +4,11 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Country.cs" />
+    <Compile Remove="Gender.cs" />
+    <Compile Remove="JobCategory.cs" />
+    <Compile Remove="MaritalStatus.cs" />
+  </ItemGroup>
+
 </Project>

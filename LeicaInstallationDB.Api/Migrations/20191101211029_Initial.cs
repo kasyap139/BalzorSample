@@ -7,31 +7,31 @@ namespace LeicaInstallationServer.Api.Migrations
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.CreateTable(
-                name: "Countries",
-                columns: table => new
-                {
-                    CountryId = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Countries", x => x.CountryId);
-                });
+            //migrationBuilder.CreateTable(
+            //    name: "Countries",
+            //    columns: table => new
+            //    {
+            //        CountryId = table.Column<int>(nullable: false)
+            //            .Annotation("SqlServer:Identity", "1, 1"),
+            //        Name = table.Column<string>(nullable: true)
+            //    },
+            //    constraints: table =>
+            //    {
+            //        table.PrimaryKey("PK_Countries", x => x.CountryId);
+            //    });
 
-            migrationBuilder.CreateTable(
-                name: "JobCategories",
-                columns: table => new
-                {
-                    JobCategoryId = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    JobCategoryName = table.Column<string>(nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_JobCategories", x => x.JobCategoryId);
-                });
+            //migrationBuilder.CreateTable(
+            //    name: "JobCategories",
+            //    columns: table => new
+            //    {
+            //        JobCategoryId = table.Column<int>(nullable: false)
+            //            .Annotation("SqlServer:Identity", "1, 1"),
+            //        JobCategoryName = table.Column<string>(nullable: true)
+            //    },
+            //    constraints: table =>
+            //    {
+            //        table.PrimaryKey("PK_JobCategories", x => x.JobCategoryId);
+            //    });
 
             migrationBuilder.CreateTable(
                 name: "Employees",
@@ -41,71 +41,71 @@ namespace LeicaInstallationServer.Api.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     FirstName = table.Column<string>(nullable: true),
                     LastName = table.Column<string>(nullable: true),
-                    BirthDate = table.Column<DateTime>(nullable: false),
+                    BirthDate = table.Column<DateTime>(nullable: true),
                     Email = table.Column<string>(nullable: true),
                     Street = table.Column<string>(nullable: true),
                     Zip = table.Column<string>(nullable: true),
                     City = table.Column<string>(nullable: true),
-                    CountryId = table.Column<int>(nullable: false),
+                    CountryId = table.Column<int>(nullable: true),
                     PhoneNumber = table.Column<string>(nullable: true),
-                    Smoker = table.Column<bool>(nullable: false),
-                    MaritalStatus = table.Column<int>(nullable: false),
-                    Gender = table.Column<int>(nullable: false),
+                    Smoker = table.Column<bool>(nullable: true),
+                    MaritalStatus = table.Column<int>(nullable: true),
+                    Gender = table.Column<int>(nullable: true),
                     Comment = table.Column<string>(nullable: true),
                     JoinedDate = table.Column<DateTime>(nullable: true),
                     ExitDate = table.Column<DateTime>(nullable: true),
-                    JobCategoryId = table.Column<int>(nullable: false),
-                    Latitude = table.Column<double>(nullable: false),
-                    Longitude = table.Column<double>(nullable: false)
+                    JobCategoryId = table.Column<int>(nullable: true),
+                    Latitude = table.Column<double>(nullable: true),
+                    Longitude = table.Column<double>(nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Employees", x => x.EmployeeId);
-                    table.ForeignKey(
-                        name: "FK_Employees_Countries_CountryId",
-                        column: x => x.CountryId,
-                        principalTable: "Countries",
-                        principalColumn: "CountryId",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_Employees_JobCategories_JobCategoryId",
-                        column: x => x.JobCategoryId,
-                        principalTable: "JobCategories",
-                        principalColumn: "JobCategoryId",
-                        onDelete: ReferentialAction.Cascade);
+                    //table.ForeignKey(
+                    //    name: "FK_Employees_Countries_CountryId",
+                    //    column: x => x.CountryId,
+                    //    principalTable: "Countries",
+                    //    principalColumn: "CountryId",
+                    //    onDelete: ReferentialAction.Cascade);
+                    //table.ForeignKey(
+                    //    name: "FK_Employees_JobCategories_JobCategoryId",
+                    //    column: x => x.JobCategoryId,
+                    //    principalTable: "JobCategories",
+                    //    principalColumn: "JobCategoryId",
+                    //    onDelete: ReferentialAction.Cascade);
                 });
 
-            migrationBuilder.InsertData(
-                table: "Countries",
-                columns: new[] { "CountryId", "Name" },
-                values: new object[,]
-                {
-                    { 1, "Belgium" },
-                    { 8, "France" },
-                    { 7, "UK" },
-                    { 6, "China" },
-                    { 9, "Brazil" },
-                    { 4, "USA" },
-                    { 3, "Netherlands" },
-                    { 2, "Germany" },
-                    { 5, "Japan" }
-                });
+            //migrationBuilder.InsertData(
+            //    table: "Countries",
+            //    columns: new[] { "CountryId", "Name" },
+            //    values: new object[,]
+            //    {
+            //        { 1, "Belgium" },
+            //        { 8, "France" },
+            //        { 7, "UK" },
+            //        { 6, "China" },
+            //        { 9, "Brazil" },
+            //        { 4, "USA" },
+            //        { 3, "Netherlands" },
+            //        { 2, "Germany" },
+            //        { 5, "Japan" }
+            //    });
 
-            migrationBuilder.InsertData(
-                table: "JobCategories",
-                columns: new[] { "JobCategoryId", "JobCategoryName" },
-                values: new object[,]
-                {
-                    { 8, "Cleaning" },
-                    { 1, "Pie research" },
-                    { 2, "Sales" },
-                    { 3, "Management" },
-                    { 4, "Store staff" },
-                    { 5, "Finance" },
-                    { 6, "QA" },
-                    { 7, "IT" },
-                    { 9, "Bakery" }
-                });
+            //migrationBuilder.InsertData(
+            //    table: "JobCategories",
+            //    columns: new[] { "JobCategoryId", "JobCategoryName" },
+            //    values: new object[,]
+            //    {
+            //        { 8, "Cleaning" },
+            //        { 1, "Pie research" },
+            //        { 2, "Sales" },
+            //        { 3, "Management" },
+            //        { 4, "Store staff" },
+            //        { 5, "Finance" },
+            //        { 6, "QA" },
+            //        { 7, "IT" },
+            //        { 9, "Bakery" }
+            //    });
 
             migrationBuilder.InsertData(
                 table: "Employees",
@@ -117,15 +117,15 @@ namespace LeicaInstallationServer.Api.Migrations
                 columns: new[] { "EmployeeId", "BirthDate", "City", "Comment", "CountryId", "Email", "ExitDate", "FirstName", "Gender", "JobCategoryId", "JoinedDate", "LastName", "Latitude", "Longitude", "MaritalStatus", "PhoneNumber", "Smoker", "Street", "Zip" },
                 values: new object[] { 2, new DateTime(1979, 1, 16, 0, 0, 0, 0, DateTimeKind.Unspecified), "Antwerp", "Lorem Ipsum", 2, "gill@bethanyspieshop.com", null, "Gill", 0, 1, new DateTime(2017, 12, 24, 0, 0, 0, 0, DateTimeKind.Unspecified), "Cleeren", 50.850299999999997, 4.3517000000000001, 0, "33999909923", false, "New Street", "2000" });
 
-            migrationBuilder.CreateIndex(
-                name: "IX_Employees_CountryId",
-                table: "Employees",
-                column: "CountryId");
+            //migrationBuilder.CreateIndex(
+            //    name: "IX_Employees_CountryId",
+            //    table: "Employees",
+            //    column: "CountryId");
 
-            migrationBuilder.CreateIndex(
-                name: "IX_Employees_JobCategoryId",
-                table: "Employees",
-                column: "JobCategoryId");
+            //migrationBuilder.CreateIndex(
+            //    name: "IX_Employees_JobCategoryId",
+            //    table: "Employees",
+            //    column: "JobCategoryId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -133,11 +133,11 @@ namespace LeicaInstallationServer.Api.Migrations
             migrationBuilder.DropTable(
                 name: "Employees");
 
-            migrationBuilder.DropTable(
-                name: "Countries");
+            //migrationBuilder.DropTable(
+            //    name: "Countries");
 
-            migrationBuilder.DropTable(
-                name: "JobCategories");
+            //migrationBuilder.DropTable(
+            //    name: "JobCategories");
         }
     }
 }

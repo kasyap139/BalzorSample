@@ -15,14 +15,14 @@ namespace LeicaInstallationDB.Api.Models
             _appDbContext = appDbContext;
         }
 
-        public IEnumerable<JobCategory> GetAllJobCategories()
-        {
-            return _appDbContext.JobCategories;
-        }
+        //public IEnumerable<JobCategory> GetAllJobCategories()
+        //{
+        //    return _appDbContext.JobCategories;
+        //}
 
-        public JobCategory GetJobCategoryById(int jobCategoryId)
-        {
-            return _appDbContext.JobCategories.FirstOrDefault(c => c.JobCategoryId == jobCategoryId);
-        }
+        //public JobCategory GetJobCategoryById(int jobCategoryId)
+        //{
+        //    return _appDbContext.JobCategories.FirstOrDefault(c => c.JobCategoryId == jobCategoryId);
+        //}
     }
 }
