@@ -10,9 +10,6 @@ C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.
 C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\obj\Debug\netstandard2.1\LeicaInstallationServer.App.csproj.CoreCompileInputs.cache
 C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\obj\Debug\netstandard2.1\LeicaInstallationServer.App.RazorComponent.input.cache
 C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\obj\Debug\netstandard2.1\RazorDeclaration\App.razor.g.cs
-C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\obj\Debug\netstandard2.1\RazorDeclaration\Pages\EmployeeDetail.razor.g.cs
-C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\obj\Debug\netstandard2.1\RazorDeclaration\Pages\EmployeeEdit.razor.g.cs
-C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\obj\Debug\netstandard2.1\RazorDeclaration\Pages\EmployeeOverview.razor.g.cs
 C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Index.razor.g.cs
 C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\obj\Debug\netstandard2.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
 C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\obj\Debug\netstandard2.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
@@ -23,9 +20,6 @@ C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.
 C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\obj\Debug\netstandard2.1\LeicaInstallationServer.App.TagHelpers.output.cache
 C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\obj\Debug\netstandard2.1\LeicaInstallationServer.App.RazorCoreGenerate.cache
 C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\obj\Debug\netstandard2.1\Razor\App.razor.g.cs
-C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\obj\Debug\netstandard2.1\Razor\Pages\EmployeeDetail.razor.g.cs
-C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\obj\Debug\netstandard2.1\Razor\Pages\EmployeeEdit.razor.g.cs
-C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\obj\Debug\netstandard2.1\Razor\Pages\EmployeeOverview.razor.g.cs
 C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\obj\Debug\netstandard2.1\Razor\Pages\Index.razor.g.cs
 C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\obj\Debug\netstandard2.1\Razor\Shared\MainLayout.razor.g.cs
 C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\obj\Debug\netstandard2.1\Razor\Shared\NavMenu.razor.g.cs
@@ -37,3 +31,9 @@ C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.
 C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\obj\Debug\netstandard2.1\staticwebassets\LeicaInstallationServer.App.StaticWebAssets.xml
 C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\obj\Debug\netstandard2.1\LeicaInstallationServer.App.dll
 C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\obj\Debug\netstandard2.1\LeicaInstallationServer.App.pdb
+C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\obj\Debug\netstandard2.1\RazorDeclaration\Pages\EnvironmentDetail.razor.g.cs
+C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\obj\Debug\netstandard2.1\Razor\Pages\EnvironmentDetail.razor.g.cs
+C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\obj\Debug\netstandard2.1\RazorDeclaration\Pages\EnvironmentEdit.razor.g.cs
+C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\obj\Debug\netstandard2.1\Razor\Pages\EnvironmentEdit.razor.g.cs
+C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\obj\Debug\netstandard2.1\RazorDeclaration\Pages\EnvironmentOverview.razor.g.cs
+C:\Users\kkz\source\repos\CentralizedInstallationServer\LeicaInstallationServer.App\obj\Debug\netstandard2.1\Razor\Pages\EnvironmentOverview.razor.g.cs

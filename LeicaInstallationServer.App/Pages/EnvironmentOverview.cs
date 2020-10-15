@@ -12,7 +12,7 @@ using System.Net.Sockets;
 
 namespace LeicaInstallationServer.App.Pages
 {
-    public partial class EmployeeOverview
+    public partial class EnvironmentOverview
     {
 		public IEnumerable<Environments> Employees { get; set; }
         public string statusOfPC;

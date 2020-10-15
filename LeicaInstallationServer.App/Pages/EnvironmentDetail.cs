@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace LeicaInstallationServer.App.Pages
 {
-    public partial class EmployeeDetail
+    public partial class EnvironmentDetail
     {
 		[Parameter]
 		public string EmployeeId { get; set; }

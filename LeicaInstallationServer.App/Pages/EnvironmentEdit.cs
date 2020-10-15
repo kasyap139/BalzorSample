@@ -2,15 +2,13 @@
 using LeicaInstallation.Shared;
 using Microsoft.AspNetCore.Components;
 using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
 using System.Threading.Tasks;
 
 
 namespace LeicaInstallationServer.App.Pages
 {
-    public partial class EmployeeEdit
+    public partial class EnvironmentEdit
     {
         [Inject]
         public IEmployeeDataService EmployeeDataService { get; set; }
