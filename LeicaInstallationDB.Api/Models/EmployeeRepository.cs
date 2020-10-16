@@ -36,22 +36,22 @@ namespace LeicaInstallationDB.Api.Models
 
             if (foundEmployee != null)
             {
-                foundEmployee.CountryId = employee.CountryId;
+                //foundEmployee.CountryId = employee.CountryId;
                 //foundEmployee.MaritalStatus = employee.MaritalStatus;
                 foundEmployee.BirthDate = employee.BirthDate;
                 foundEmployee.City = employee.City;
-                foundEmployee.Email = employee.Email;
+                //foundEmployee.Email = employee.Email;
                 foundEmployee.FirstName = employee.FirstName;
                 foundEmployee.LastName = employee.LastName;
                 //foundEmployee.Gender = employee.Gender;
-                foundEmployee.PhoneNumber = employee.PhoneNumber;
-                foundEmployee.Smoker = employee.Smoker;
+                //foundEmployee.PhoneNumber = employee.PhoneNumber;
+                //foundEmployee.Smoker = employee.Smoker;
                 foundEmployee.Street = employee.Street;
-                foundEmployee.Zip = employee.Zip;
-                foundEmployee.JobCategoryId = employee.JobCategoryId;
+                //foundEmployee.Zip = employee.Zip;
+                //foundEmployee.JobCategoryId = employee.JobCategoryId;
                 foundEmployee.Comment = employee.Comment;
-                foundEmployee.ExitDate = employee.ExitDate;
-                foundEmployee.JoinedDate = employee.JoinedDate;
+                //foundEmployee.ExitDate = employee.ExitDate;
+                //foundEmployee.JoinedDate = employee.JoinedDate;
 
                 _appDbContext.SaveChanges();
 

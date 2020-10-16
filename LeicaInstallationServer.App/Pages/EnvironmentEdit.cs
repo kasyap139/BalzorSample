@@ -32,7 +32,7 @@ namespace LeicaInstallationServer.App.Pages
 			if (employeeId == 0) //new employee is being created
 			{
 				//add some defaults
-				Environments = new Environments { CountryId = 1, JobCategoryId = 1, BirthDate = DateTime.Now, JoinedDate = DateTime.Now };
+				Environments = new Environments {BirthDate = DateTime.Now};
 			}
 			else
 			{
