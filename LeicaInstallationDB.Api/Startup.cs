@@ -25,7 +25,7 @@ namespace LeicaInstallationDB.Api
             services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
-            services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+            services.AddScoped<IEnvironmentRepository, EnvironmentRepository>();
 
             services.AddCors(options =>
             {

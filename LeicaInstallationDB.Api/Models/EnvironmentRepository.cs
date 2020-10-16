@@ -4,11 +4,11 @@ using LeicaInstallation.Shared;
 
 namespace LeicaInstallationDB.Api.Models
 {
-    public class EmployeeRepository : IEmployeeRepository
+    public class EnvironmentRepository : IEnvironmentRepository
     {
         private readonly AppDbContext _appDbContext;
 
-        public EmployeeRepository(AppDbContext appDbContext)
+        public EnvironmentRepository(AppDbContext appDbContext)
         {
             _appDbContext = appDbContext;
         }

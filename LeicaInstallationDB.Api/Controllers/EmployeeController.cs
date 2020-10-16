@@ -8,9 +8,9 @@ namespace LeicaInstallationDB.Api.Controllers
     [ApiController]
     public class EmployeeController : Controller
     {
-        private readonly IEmployeeRepository _employeeRepository;
+        private readonly IEnvironmentRepository _employeeRepository;
 
-        public EmployeeController(IEmployeeRepository employeeRepository)
+        public EmployeeController(IEnvironmentRepository employeeRepository)
         {
             _employeeRepository = employeeRepository;
         }

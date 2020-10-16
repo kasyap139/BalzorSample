@@ -6,7 +6,7 @@ using LeicaInstallation.Shared;
 
 namespace LeicaInstallationDB.Api.Models
 {
-    public interface IEmployeeRepository
+    public interface IEnvironmentRepository
     {
         IEnumerable<Environments> GetAllEmployees();
         Environments GetEmployeeById(int employeeId);
